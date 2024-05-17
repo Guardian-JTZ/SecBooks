@@ -1,0 +1,84 @@
+div[data-type=thino_view] .memolist-wrapper .memolist-container .list-view.masonry-memolist {
+  max-height: 500px;
+  overflow: auto;
+}
+
+.theme-dark .heatmap-default,
+.theme-light .heatmap-default {
+  --memos-bg-lightgray: #eaeaea74;
+  --memos-stat-day-L1-bg: #d8f3dc;
+  --memos-stat-day-L2-bg: #74c69d;
+  --memos-stat-day-L3-bg: #40916c;
+  --memos-stat-day-L4-bg: #1b4332;
+}
+
+div[data-type=thino_view] .common-editor-wrapper>.common-tools-wrapper>.btns-container>.confirm-btn {
+  background-color: #2d6a4f;
+}
+
+div[data-type=thino_view] .tags-wrapper>.tags-container .tag-item-container.active>.tag-text-container>* {
+  color: #40916c;
+}
+
+/* thino 2.1.3 by Pkmer.cn*/
+.callout.callout[data-callout~=thino] {
+  --callout-icon: "clock-3";
+  --callout-padding: 0px;
+  --callout-title-padding: 10px;
+  --callout-content-padding: 12px;
+  border: unset;
+  padding:0;
+  margin:0;
+  background-color: transparent;
+  clear: both;
+}
+ 
+ .callout.callout[data-callout~=thino] .callout-title {
+  float: left;
+  width:9rem;
+ flex-direction: row-reverse;
+  text-align: right;
+  align-content: center;
+  align-items: center;
+  background-color: transparent;
+  padding: var(--callout-title-padding);
+}
+.callout.callout[data-callout~=thino] > .callout-title .callout-icon {
+  background-color:  var(--background-primary);
+  margin-right: -1.2rem;
+  transform: scale(1.2);
+  border-radius: 20px;
+  z-index: 1;
+
+}
+ 
+.callout.callout[data-callout~=thino] .callout-content {
+  background-color: rgb(var(--callout-color), 0.1);
+  padding-top:2px;
+  border-left: 4px solid rgb(var(--callout-color),0.7);
+  z-index: 0;
+}
+
+
+.callout.callout[data-callout~=thino] .callout-content p {
+  margin-block-start:1em;
+
+}
+ 
+/* 展开增强 */
+.memo-wrapper {
+  max-height: 200px;
+  /* transition: max-height 0.25s, opacity 0.25s, padding 0.25s, transform 0.5s; */
+  animation: collapse .2s cubic-bezier(0.12, 0.62, 0.46, 0.98);
+}
+
+@keyframes collapse {
+  0% {
+    /* opacity: 0; */
+    max-height: 0;
+  }
+  100% {
+    /* opacity: 1; */
+    max-height: 200px;
+  }
+}

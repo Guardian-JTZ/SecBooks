@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "791395bf00bbc004",
+        "id": "80d1a0d93aafb9cd",
         "type": "tabs",
         "children": [
           {
-            "id": "82d9a6cb2658d8f0",
+            "id": "982922edff1fdcf3",
             "type": "leaf",
             "state": {
-              "type": "thino_view",
+              "type": "empty",
               "state": {}
             }
           }
@@ -65,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 235.5
   },
   "right": {
     "id": "8c2a344d2407e2cd",
@@ -130,7 +130,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -147,12 +147,20 @@
       "command-palette:打开命令面板": false,
       "random-note:开始漫游笔记": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-memos:Thino": false
+      "obsidian-memos:Thino": false,
+      "vscode-editor:新建代码文件": false
     }
   },
-  "active": "82d9a6cb2658d8f0",
+  "active": "982922edff1fdcf3",
   "lastOpenFiles": [
+    "Web/文件上传.md",
+    "2024-05-17.md",
+    "Resources/Templates/文档模板.md",
+    "Web",
+    "Resources",
     "README.md",
+    "/fake-file-that-generated-for-thino.png",
+    "Resources/Templates",
     "assets/image-20240510185439075.png",
     "assets/image-20240510185302794.png",
     "assets",
